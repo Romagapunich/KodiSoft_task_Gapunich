@@ -1,0 +1,55 @@
+﻿@model KodiSoft_task_Gapunich.Products
+
+@{
+    ViewBag.Title = "DetaliProduct";
+}
+
+<h2>DetaliProduct</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <p>Тип продукта</p>
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Typeproducts.Name)
+        </dd>
+
+        <dt>
+            <p>Название продукта</p>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            <p>Цена</p>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            <p>Описание</p>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt>
+            <p>Id</p>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "EditProduct", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

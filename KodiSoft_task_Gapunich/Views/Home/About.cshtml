@@ -1,0 +1,47 @@
+﻿@model KodiSoft_task_Gapunich.Descriptions
+
+@{
+    ViewBag.Title = "About";
+}
+<div>
+    <img class="img-circle" style="width: 100%; height: 400px;" src="~/Content/Images/s5.jpg" alt="Cinque Terre">
+    <div class="textabout">
+        <p class="abouts">Pizza House</p>
+        </div>
+</div>
+<p></p>
+<h2 class="downhomemenu" style="text-align: center">О нас</h2>
+
+<div>
+
+    <hr/>
+    <dl class="text-justify ">
+        <dd>
+            @Html.DisplayFor(model => model.Desciption_Restoran)
+        </dd>
+
+    </dl>
+</div>
+<div class="downhome">
+    <div class="row">
+        <div class="col-md-4">
+            <a href=@Url.Action("Pizza","Home") style="border: none" class="thumbnail">
+                <p class="downhomemenu">Pizza</p>
+                <img class="img-circle" src="~/Content/Images/1.jpg" alt="Cinque Terre" style="max-width: 200px; height: 150px">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href=@Url.Action("Sushi","Home") style="border: none" class="thumbnail">
+                <p class="downhomemenu">Sushi</p>
+                <img class="img-circle" src="~/Content/Images/6.jpg" alt="Cinque Terre" style="max-width: 200px; height: 150px">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href=@Url.Action("Desert","Home") style="border: none" class="thumbnail">
+                <p class="downhomemenu">Desert</p>
+                <img class="img-circle" src="~/Content/Images/11.jpg" alt="Cinque Terre" style="max-width: 200px; height: 150px">
+            </a>
+        </div>
+    </div>
+</div>
+

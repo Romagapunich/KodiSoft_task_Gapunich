@@ -1,0 +1,143 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select {
+    max-width: 280px;
+}
+.small_img {
+    max-height: 300px;
+    width: 200px;
+}
+.footer {
+    overflow: hidden;
+    width: 100%;
+}
+.footer-nav {
+    text-align: center;
+    overflow: hidden;
+    padding: 10px 0 10px 0;
+    margin-left: 375px;
+}
+.desciption-editor textarea {
+    width: 800px;
+   height: 300px;
+}
+#Editproduct textarea {
+      width: 280px;
+   height: 100px;
+}
+.dropdown button {
+    color: #ccc;
+    background-color: #222;
+    border: none;
+    margin: 10px;
+} 
+.downhome {
+   
+}
+.downhomemenu {align-items: center;
+                text-align: center;
+                 text-decoration: black;
+                 font-family: "Great Vibes";
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    text-transform: none !important;
+                     }
+.zoom {      
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in;  
+}     
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(2.5);    
+-moz-transform: scale(2.5);  
+-webkit-transform: scale(2.5);  
+-o-transform: scale(2.5);  
+transform: scale(2.5);    
+position:relative;      
+z-index:100;  
+}
+.imagecarusel {
+    width: auto;
+    height: 1000px;
+}
+.logo {
+   
+    font-family: "Great Vibes";
+    color: #fff;
+    text-align: center;
+    font-family: "Intro Inline";
+    font-size: 70px;
+    letter-spacing: -10px;
+    margin-bottom: 0px;
+    
+}
+.aboutlolgo {
+   
+        font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    letter-spacing: 1.4px;
+    margin-top: -0px;
+}
+.btn-logo {
+    background: #fff;
+    border: 2px solid #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #411303;
+    padding: 10px 76px;
+   
+}
+.textabout {
+      position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.textabout {
+  
+   
+    font-family: "Great Vibes";
+    color: #fff;
+    text-align: center;
+    font-family: "Intro Inline";
+    font-size: 70px;
+    letter-spacing: -10px;
+    margin-bottom: 500px;
+    
+
+}

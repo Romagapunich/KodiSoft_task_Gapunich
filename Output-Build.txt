@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: KodiSoft_task_Gapunich, Configuration: Debug Any CPU ------
+1>  KodiSoft_task_Gapunich -> K:\Project C#\KodiSoft_task_Gapunich\KodiSoft_task_Gapunich\bin\KodiSoft_task_Gapunich.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

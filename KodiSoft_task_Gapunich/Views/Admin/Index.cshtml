@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Админ панель редактирвоания";
+}
+
+
+
+<h2>Админ панель редактирвоания</h2>
+<div class="col-md-6">
+    <ul>
+        <li class="btn-block navbar-btn">@Html.ActionLink("Редактировать описание", "EditDescription", "Description")</li>
+        <li class="btn-block navbar-btn">@Html.ActionLink("Редактировать контакты", "Index", "Contact")</li>
+        <li class="btn-block navbar-btn">@Html.ActionLink("Редактировать продуты", "Index", "Product")</li>
+        <li class="btn-block navbar-btn">@Html.ActionLink("Редактировать вид продуктов", "Index", "TypeProduct")</li>
+    </ul>
+</div>

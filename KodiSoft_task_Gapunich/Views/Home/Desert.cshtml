@@ -1,0 +1,31 @@
+﻿@model IEnumerable<KodiSoft_task_Gapunich.Products>
+@using KodiSoft_task_Gapunich.Controllers
+@{
+    ViewBag.Title = "Desert";
+}
+
+<h2 class="downhomemenu">Десерты</h2>
+
+<div class="container-fluid">
+
+
+    @foreach (var groups in Model.Where(price => price.Typeproducts.Id == 3))
+    {
+
+        <ul>
+            <ol>
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <img class="small_img img-rounded zoom" src="@Url.Content(string.Format("~/Content/Images/{0}.jpg", groups.Id))" />
+
+                    </div>
+                    <div class="col-md-8">
+                        <span>Наименование @Html.DisplayFor(modelItem => groups.Name)</span>
+                        <br><span>Цена @Html.DisplayFor(modelItem => groups.Price) </span>
+                        <br>@Html.DisplayFor(modelItem => groups.Description)
+                    </div>
+                </div>
+            </ol>
+        </ul>
+    }
+</div>

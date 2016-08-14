@@ -1,0 +1,100 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="col-md-12">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img class="imagecarusel" src="~/Content/Images/s5.jpg" alt="Cinque Terre">
+            <div class="carousel-caption">
+                <h3 class="logo">Pizza House</h3>
+                <p class="aboutlolgo">Sushi,pizza,desert</p>
+                <p><a class="btn btn-logo" href=@Url.Action("ProductList","Home")>Menu</a>
+</div>
+        </div>
+        <div class="item">
+            <img class="imagecarusel" src="~/Content/Images/s4.jpg" alt="Cinque Terre">
+            <div class="carousel-caption">
+                <h3 class="logo">Pizza House</h3>
+                <p class="aboutlolgo">Sushi,pizza,desert</p>
+                <p><a class="btn btn-logo" href=@Url.Action("ProductList","Home")>Menu</a>
+</div>
+        </div>
+        <div class="item">
+            <img class="imagecarusel" src="~/Content/Images/s1.jpg" alt="Cinque Terre">
+            <div class="carousel-caption">
+                <h3 class="logo">Pizza House</h3>
+                <p class="aboutlolgo">Sushi,pizza,desert</p>
+                <p><a class="btn btn-logo" href=@Url.Action("ProductList","Home")>Menu</a>
+</div>
+        </div>
+        <div class="item">
+            <img class="imagecarusel" src="~/Content/Images/s2.jpg" alt="Cinque Terre">
+            <div class="carousel-caption">
+                <h3 class="logo">Pizza House</h3>
+                <p class="aboutlolgo">Sushi,pizza,desert</p>
+                <p><a class="btn btn-logo" href=@Url.Action("ProductList","Home")>Menu</a>
+</div>
+        </div>
+        <div class="item">
+            <img class="imagecarusel" src="~/Content/Images/s3.jpg" alt="Cinque Terre">
+            <div class="carousel-caption">
+                <h3 class="logo">Pizza House</h3>
+                <p class="aboutlolgo">Sushi,pizza,desert</p>
+                <p><a class="btn btn-logo" href=@Url.Action("ProductList","Home")>Menu</a>
+</div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+
+
+<div class="row">
+ <div class="col-md-12">
+        <h2>О нас</h2>
+        <p>Компания «PIZZA HOUSE» работает на рынке доставки пиццы в Киеве и Харькове с 2008 года. Для нас очень важно чтобы Вы остались довольными от вкуса нашей продукции и чтобы доставка пиццы осуществлялась в течение 60 минут независимо от того, в какой точке города Вы находитесь.Мы будем стараться сделать так, чтобы в нашем меню были блюда на любой вкус. Более 50 видов пиццы с богатой начинкой, а также уникальная возможность создать пиццу по собственному рецепту. Кроме того, мы предлагаем аппетитные салаты, горячие закуски, десерты и напитки. Каждое блюдо готовится только после поступления заказа, поэтому мы гарантируем, что пицца и закуски будут доставлены Вам горячими, а салаты – свежими и вкусными.</p>
+        <p><a class="btn btn-default" href=@Url.Action("About","Home")>Полное описание</a></p>
+    </div>
+</div>
+<div class="downhome">
+    <div class="row">
+        <div class="col-md-4">
+            <a href=@Url.Action("Pizza","Home") style="border: none" class="thumbnail">
+                <p class="downhomemenu">Pizza</p>
+                <img class="img-circle" src="~/Content/Images/1.jpg" alt="Cinque Terre" style="max-width: 200px; height: 150px">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href=@Url.Action("Sushi","Home") style="border: none" class="thumbnail">
+                <p class="downhomemenu">Sushi</p>
+                <img class="img-circle" src="~/Content/Images/6.jpg" alt="Cinque Terre" style="max-width: 200px; height: 150px">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href=@Url.Action("Desert","Home") style="border: none" class="thumbnail">
+                <p class="downhomemenu">Desert</p>
+                <img class="img-circle" src="~/Content/Images/11.jpg" alt="Cinque Terre" style="max-width: 200px; height: 150px">
+            </a>
+        </div>
+    </div>
+</div>
